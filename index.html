@@ -6,15 +6,15 @@
 <script type='text/javascript' src='https://service.force.com/embeddedservice/menu/fab.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
-		// Requis si vous souhaitez afficher des étiquettes dans une langue différente de celle du contexte de votre utilisateur.
-		embedded_svc.menu.settings.language = 'fr'; //Par exemple, saisissez 'en' ou 'en-US'
+		// Required if you want labels in a language that’s different from your user’s context.
+		//embedded_svc.menu.settings.language = ''; //For example, enter 'en' or 'en-US'
 
 		embedded_svc.menu.init(
 			'https://psa-customerfirst--preprod.sandbox.my.salesforce.com',
 			'https://d.la3-c1cs-fra.salesforceliveagent.com/chat',
 			gslbBaseURL,
 			'00D5t0000004fHO',
-			'FR_Citroen_PCDO'
+			'FR_Peugeot_PCDO'
 		);
 	};
 
