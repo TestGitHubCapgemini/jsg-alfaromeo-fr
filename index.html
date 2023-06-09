@@ -72,14 +72,14 @@ color: var(--lwc-colorBackgroundButtonBrand,rgb(235, 100, 40)) !important;
 <script type='text/javascript'>
 var initESW = function(gslbBaseURL) {
 // Required if you want labels in a language that’s different from your user’s context.
-embedded_svc.menu.settings.language = 'nl_NL'; //For example, enter 'en' or 'en-US'
+embedded_svc.menu.settings.language = 'it'; //For example, enter 'en' or 'en-US'
 
 		embedded_svc.menu.init(
 			'https://psa-customerfirst--devhotfix.sandbox.my.salesforce.com',
 			'https://d.la1-c1cs-cdg.salesforceliveagent.com/chat',
 			gslbBaseURL,
 			'00D0D0000000P9N',
-			'NL_OPEL_PCDO'
+			'IT_Abarth_JAFAL'
 		);
 };
 
@@ -93,7 +93,7 @@ if(isMobileDevice){}
 else{
 console.log('inside desktop');
 var style = document.createElement('style');
-style.innerHTML = '.embeddedServiceHelpButton .uiButton{ height: 80px !important;min-width: 80px !important;width:80px;border-radius: 50% !important;bottom: 40px !important;right:70px !important;background-image: url(https://psa-customerfirst--devhotfix--c.sandbox.vf.force.com/resource/1651716398000/ChatAvatar) !important;border: 5px solid var(--lwc-colorBackgroundButtonBrand,rgb(235, 100, 40));background-repeat: no-repeat !important;background-size: 70px 70px !important;}';
+style.innerHTML = '.embeddedServiceHelpButton .uiButton{ height: 80px !important;min-width: 80px !important;width:80px;border-radius: 50% !important;bottom: 40px !important;right:70px !important;background-image: url(https://psa-customerfirst--devhotfix--c.sandbox.vf.force.com/resource/1686305660000/Chat_Bubble_Logo_Blue) !important;border: 5px solid var(--lwc-colorBackgroundButtonBrand,rgb(235, 100, 40));background-repeat: no-repeat !important;background-size: 70px 70px !important;}';
 style.innerHTML += 'li#esw-cta_3mi7Y0000000014{pointer-events : none;opacity :0.4;}';
 style.innerHTML += '.embedded-service .channelmenu_ctas > li:last-child{pointer-events : none;opacity :0.4;}';
 document.body.appendChild(style);
